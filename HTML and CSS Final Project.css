@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+video {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #ed563b;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button a {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.Container {
+    max-width: min(90%, 71.25rem);
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Mobile-Only , .Menu-Icon {
+    display: none;
+}
+
+.Top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+
+.Top .Nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    align-items: center;
+}
+
+.Top .Nav ul a {
+    text-decoration: none;
+    color: #232d39;
+    text-transform: uppercase;
+}
+
+.Muuqaal {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /* position: relative; */
+}
+
+.Content {
+    position: absolute;
+    left: -0.625rem;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.Content h6 {
+    font-size: 1.125rem;
+    /* margin-bottom: 1rem; */
+    line-height: 1.35rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+}
+
+.Content h2 {
+    font-size: 5.25rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
+}
+
+.Program {
+    max-width: 33.75rem;
+    justify-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8.75rem;
+    margin-bottom: 5rem;
+}
+
+.Program h2 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #232d39;
+}
+
+.Program p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #232d39;
+}
+
+.Program img {
+    width: 2.8125rem;
+    height: 0.9375rem;
+    margin: 1.25rem 0;
+}
+
+
+.Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.75rem;
+    /* gap: 2rem; */
+}
+.Box .Box-Left-Side img {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin-right: 1.875rem;
+}
+
+.Box .Box-Right-Side h4 {
+    font-size: 1.1875rem;
+    font-weight: 600;
+    color: #232d39;
+    margin-bottom: 0.4375rem;
+}
+
+.Box .Box-Right-Side p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #232d39;
+    /* margin-bottom: 0.4375rem; */
+}
+
+
+.Box .Box-Right-Side a {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: #ed563b;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 0.4375rem;
+}
+
+.Section4 .Section4-Background {
+    background: url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg') center/cover no-repeat;
+    /* width: 100%; */
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section4 .Section4-Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 0.9375rem;
+    width: 57.5rem;
+    height: 11.2305rem;
+
+}
+
+.Section4 .Section4-Content h2 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+.Section4 .Section4-Content p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.875rem;
+    margin-top: 0.9375rem;
+    margin-bottom: 1.5625rem;
+}
+
+
+.Classes-Content-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-bottom: 8.75rem;
+}
+
+.Classes-Content-grid .Classes-Content-grid-Left .Classes-Left-Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    /* width: 21.875rem; */
+}
+
+.Classes-Content-grid .Classes-Content-grid-Left .Classes-Left-Box .Classes-Left-Box-Box1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: rgba(35, 45, 57, 0.1) 0 0 0.625rem 0.1875rem ;
+    width: 21.875rem;
+    height: 5.9375rem;
+    padding: 1.875rem;
+    border: none;
+    margin-bottom: 1.875rem;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+}
+
+.Classes-Content-grid .Classes-Content-grid-Left .Classes-Left-Box .Classes-Left-Box-Box1 img{
+    width: 2.1875rem;
+    height: 2.1875rem;
+    margin-right: 1.25rem;
+    
+}
+
+.Classes-Content-grid .Classes-Content-grid-Left .Classes-Left-Box .Classes-Left-Box-Box1 span {
+    font-weight: 600;
+    font-size: 1.1875rem;
+    color: #232d39;
+}
+
+.Classes-Content-grid .Classes-Content-grid-Left .Classes-Left-Box .Classes-Left-Box-Box1 span:hover {
+    color: #ed563b;
+}
+
+
+.Classes-Content-grid .Classes-Content-grid-Left .Classes-Left-Box  button {
+    width: 21.875rem;
+    height: 4.28125rem;
+    border-radius: 0.3125rem;
+}
+
+.Classes-Content-grid .Classes-Content-grid-Left .Classes-Left-Box  button a {
+    font-weight: 600;
+    font-size: 1.1875rem;
+    text-transform: none;
+}
+.Classes-Content-grid .Classes-Content-grid-Right {
+    grid-column: span 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Classes-Content-grid .Classes-Content-grid-Right .Classes-Right-Box img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.3125rem;
+}
+
+.Classes-Content-grid .Classes-Content-grid-Right .Classes-Right-Box h4 {
+    font-weight: 700;
+    font-size: 1.4375rem;
+    margin-bottom: 1.25rem;
+    margin-top: 1.875rem;
+}
+
+.Classes-Content-grid .Classes-Content-grid-Right .Classes-Right-Box p {
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-bottom: 1.75rem;
+    color: #7a7a7a;
+}
+
+
+
+.Schedules-Background {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) ,url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg') center/cover no-repeat;
+    height: 63.3125rem;
+}
+
+
+.Schedules-Content .Schedules-Content-List {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: #fff; 
+    margin-bottom: 2.5rem;
+}
+
+
+
+.Schedules-Content .Schedules-Content-List ul {
+    list-style: none;
+    display: flex;
+}
+
+
+.Schedules-Content .Schedules-Content-List li {
+    margin-left: 0.625rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+}
+
+.Schedules-Content .Schedules-Content-List li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+}
+
+.Schedules-Content .Schedules-Content-List li a:hover {
+    color: #ed563b;
+}
+
+
+.Schedules-Content-Table table {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    width: 57.375rem;
+    height: 31.1875rem;
+    border-top: 0.0625rem solid #fff;
+    border-right: 0.0625rem solid #fff;
+}
+
+.Schedules-Content-Table table td {
+    border-bottom: 0.0625rem solid #fff;
+    border-left: 0.0625rem solid #fff;
+}
+
+
+
+.Extra-Classes-Content .Extra-Classes-Content-Grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.Extra-Classes-Content .Extra-Classes-Content-Grid .Extra-Classes-Content-Box {
+    box-shadow: rgba(35, 45, 57, 0.1) 0 0 0.625rem 0.1875rem;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; */
+    padding: 2.5rem;
+}
+
+.Extra-Classes-Content .Extra-Classes-Content-Grid .Extra-Classes-Content-Box img {
+    width: 16.875rem;
+    height: 12.8125rem;
+    border-radius: 0.3125rem;
+}
+
+.Extra-Classes-Content .Extra-Classes-Content-Grid .Extra-Classes-Content-Box span {
+    font-weight: 500;
+    font-size: 0.812518rem;
+    margin-top: 1.5625rem;
+    margin-bottom: 0.625rem;
+    color: #ed563b;
+}
+
+.Extra-Classes-Content .Extra-Classes-Content-Grid .Extra-Classes-Content-Box h4 {
+    font-weight: 600;
+    font-size: 1.1875rem;
+    margin: 0 0 1.125rem 0;
+    color: #232d39;
+}
+
+.Extra-Classes-Content .Extra-Classes-Content-Grid .Extra-Classes-Content-Box p {
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-bottom: 1.25rem;
+    color: #7a7a7a;
+}
+
+
+.Extra-Classes-Content .Extra-Classes-Content-Grid .Extra-Classes-Content-Box  i:hover {
+    color: #ed563b;
+    cursor: pointer;
+}
+
+
+.Last-Part .Last-Part-Grid {
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+    display: flex;
+    margin-top: 8.75rem;
+}
+
+
+.Last-Part .Last-Part-Grid iframe {
+    width: 42.1875rem;
+    height: 40.625rem;
+}
+.Last-Part .Last-Part-Grid .Last-Part-Contact-Form {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://templatemo.com/templates/templatemo_548_training_studio/assets/images/contact-bg.jpg");
+    padding: 5rem;
+    width: 42.1875rem;
+    height: 40.625rem;
+}
+
+.Last-Part .Last-Part-Grid .Last-Part-Contact-Form .Last-Part-Contact-Form-div {
+    padding: 2.5rem;
+    background-color: #fff;
+    border-radius: 0.3125rem;
+}
+
+
+.Last-Part .Last-Part-Grid .Last-Part-Contact-Form .Last-Part-Contact-Form-div input, textarea {
+    padding: 0.625rem;
+    margin-bottom: 1.875rem;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    width: 100%;
+    
+}
+
+.Last-Part .Last-Part-Grid .Last-Part-Contact-Form .Last-Part-Contact-Form-div .Contuct-Button {
+    cursor: pointer;
+    padding: 0.625rem;
+    margin-bottom: 1.875rem;
+    font-size: 0.8125rem;
+    font-weight: 400;
+}
+footer {
+    padding: 1.875rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ed563b;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .Top {
+        display: none;
+    }
+
+    .Mobile-Only {
+        display: block;
+    }
+
+    .Menu-Icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        background-color: #ed563b;
+        color: white;
+        width: 50px;
+        height: 50px;
+        top: 7%;
+        right: 5%;
+        border-radius: 50%;
+        font-size: 2rem;
+        z-index: 11111;
+    }
+
+    .Mobile-Only {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        background-color: #232d39;
+        inset: 0 0 0 0;
+        color: white;
+        transform: translateX(0%);
+        transition: transform 350ms ease-in-out;
+        z-index: 10000;
+        
+    }
+
+    .Mobile-Only[data-visible="false"] {
+        transform: translateX(100%);
+    }
+
+    .Menu-Icon i[data-visible="true"] {
+        display: block;
+    }
+
+    .Menu-Icon i[data-visible="false"] {
+        display: none;
+    }
+
+    .Mobile-Only .Nav {
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2.5rem;
+        width: 100%;
+    }
+
+    .Mobile-Only .Nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Mobile-Only .Logo h1 {
+        font-size: 2.3125rem;
+        font-weight: 700;
+        border-bottom: 1px solid white;
+        padding: 10px;
+    }
+
+    .Mobile-Only a {
+        color: white !important;
+    }
+
+    .Muuqaal {
+        height: 90vh;
+    }
+
+    .Muuqaal video {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .Content h6 {
+        font-size: 1.125rem;
+        font-weight: 800;
+    }
+
+    .Content h2 {
+        font-size: 4.8rem;
+        font-weight: 800;
+        line-height: 4.9rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .Program {
+        margin-top: 4rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .Program h2 {
+        font-size: 1.5rem;
+    }
+
+    .Program p {
+        font-size: 0.75rem;
+    }
+
+    .Grid {
+        grid-template-columns: 1fr;
+    }
+
+    .Box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Box .Box-Left-Side img {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .Section4 .Section4-Content {
+        width: 90%;
+    }
+
+    .Section4 .Section4-Content h2 {
+        font-size: 1.75rem;
+    }
+
+    .Section4 .Section4-Content p {
+        font-size: 0.875rem;
+    }
+
+    .Classes-Content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .Classes-Content-grid .Classes-Content-grid-Left .Classes-Left-Box .Classes-Left-Box-Box1 {
+        width: 100%;
+
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .Classes-Content-grid .Classes-Content-grid-Left .Classes-Left-Box button {
+        width: 100%;
+    }
+
+    .Classes-Content-grid .Classes-Content-grid-Right {
+        grid-column: span 1;
+    }
+
+    .Schedules-Background {
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .Schedules-Content .Schedules-Content-List {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+        display: none;
+    }
+
+    .Schedules-Content-Table {
+        overflow-x: auto;
+        /* width: 100%; */
+    }
+
+    .Schedules-Content-Table table {
+        width: 100%;
+        font-size: 0.75rem;
+    }
+
+    .Extra-Classes-Content .Extra-Classes-Content-Grid {
+        grid-template-columns: 1fr;
+    }
+
+    .Extra-Classes-Content .Extra-Classes-Content-Grid .Extra-Classes-Content-Box {
+        padding: 1.5rem;
+    }
+
+    .Extra-Classes-Content .Extra-Classes-Content-Grid .Extra-Classes-Content-Box img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Last-Part .Last-Part-Grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Last-Part .Last-Part-Grid iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .Last-Part .Last-Part-Grid .Last-Part-Contact-Form {
+        width: 100%;
+        padding: 2rem;
+        height: auto;
+    }
+
+    .Last-Part .Last-Part-Grid .Last-Part-Contact-Form .Last-Part-Contact-Form-div {
+        padding: 1.5rem;
+    }
+
+    footer {
+        text-align: center;
+        padding: 1rem;
+        font-size: 0.875rem;
+    }
+}
